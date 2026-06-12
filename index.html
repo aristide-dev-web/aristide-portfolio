@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aristide – Tech Founder dai 7 Colori</title>
+    <title>Aristide | Tech Founder & Software Architect</title>
     <style>
+        /* Animazione ultra-veloce e dinamica */
         @keyframes rainbow {
             0% { background-position: 0% 50%; }
             50% { background-position: 100% 50%; }
@@ -13,66 +14,84 @@
 
         body {
             margin: 0;
-            font-family: 'Segoe UI', Arial, sans-serif;
-            /* Ecco i tuoi 7 colori! */
-            background: linear-gradient(-45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
-            background-size: 400% 400%;
-            animation: rainbow 15s ease infinite;
+            font-family: 'Inter', 'Segoe UI', sans-serif;
+            /* Inizio con rosso/arancio per staccare dal viola */
+            background: linear-gradient(-45deg, #ff3300, #ff8800, #ffcc00, #00cc44, #0099ff, #6600ff, #cc00ff);
+            background-size: 300% 300%;
+            animation: rainbow 4s linear infinite;
             color: white;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
+            overflow-x: hidden;
         }
 
-        header {
-            padding: 80px 20px;
-            text-align: center;
-            text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+        header { padding: 50px 20px; text-align: center; }
+        
+        h1 { 
+            font-size: clamp(40px, 8vw, 90px);
+            margin: 0; 
+            text-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            font-weight: 800;
+            letter-spacing: -3px;
+            text-transform: uppercase;
         }
 
-        h1 {
-            font-size: 70px;
-            margin-bottom: 10px;
-            letter-spacing: -2px;
-            font-weight: 900;
+        .tagline {
+            font-size: 20px;
+            font-weight: 300;
+            letter-spacing: 2px;
+            margin-top: 10px;
+            opacity: 0.9;
         }
 
         .card {
-            background: rgba(255, 255, 255, 0.2);
-            padding: 40px;
-            border-radius: 30px;
-            margin: 20px auto;
-            max-width: 700px;
-            backdrop-filter: blur(20px);
-            border: 2px solid rgba(255, 255, 255, 0.4);
-            box-shadow: 0 20px 50px rgba(0,0,0,0.3);
-            text-align: center;
+            background: rgba(0, 0, 0, 0.5); /* Più scuro = più tech */
+            padding: 50px;
+            border-radius: 20px;
+            margin: 10px auto;
+            max-width: 750px;
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: left; /* Allineamento a sinistra per tono più serio */
+            box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+        }
+
+        h2 { font-size: 32px; margin-top: 0; color: #fff; }
+        
+        p { 
+            font-size: 18px; 
+            line-height: 1.6; 
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 25px;
         }
 
         .btn {
             display: inline-block;
-            background: white;
-            color: #333;
-            padding: 15px 40px;
-            border-radius: 50px;
+            background: #fff;
+            color: #000;
+            padding: 14px 30px;
+            border-radius: 8px; /* Meno arrotondato = più pro */
             text-decoration: none;
             font-weight: bold;
-            font-size: 20px;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-            transition: all 0.3s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: 0.3s;
         }
 
-        .btn:hover {
-            transform: scale(1.1) rotate(2deg);
-            background: #fff;
-            box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+        .btn:hover { 
+            transform: translateY(-3px);
+            background: #ffcc00;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
         }
 
         footer {
             text-align: center;
             padding: 40px;
-            font-weight: bold;
-            text-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+            font-size: 14px;
+            letter-spacing: 1px;
+            opacity: 0.8;
+            font-weight: 400;
         }
     </style>
 </head>
@@ -80,20 +99,19 @@
 
     <header>
         <h1>Aristide</h1>
-        <p style="font-size: 24px;">Tech Founder & Creative Visionary</p>
+        <div class="tagline">Tech Founder & Software Architect</div>
     </header>
 
     <div style="flex-grow: 1; padding: 0 20px;">
         <div class="card">
-            <h2 style="font-size: 36px;">Il Mondo ai miei Colori 🌈</h2>
-            <p>Sviluppatore, sognatore e innovatore. Trasformo idee complesse in realtà digitali vibranti.</p>
-            <br>
-            <a href="https://github.com/aristide-dev-web" class="btn">Esplora il mio Universo</a>
+            <h2>System Architecture & Development</h2>
+            <p>Specializzato nella progettazione di ecosistemi mobile scalabili. Unisco visione tecnica e business strategy per trasformare infrastrutture complesse in prodotti digitali performanti. Esperto in Flutter, Firebase e soluzioni cloud native.</p>
+            <a href="https://github.com/aristide-dev-web" class="btn">View Technical Assets</a>
         </div>
     </div>
 
     <footer>
-        &copy; 2024 Aristide – Il Fondatore dai 7 Colori.
+        Aristide — 2024: The American Turning Point.
     </footer>
 
 </body>
