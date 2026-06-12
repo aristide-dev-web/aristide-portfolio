@@ -18,7 +18,7 @@ La mia metodologia si basa sulla **AI Agility**: utilizzo l'Intelligenza Artific
 - **WAN Security Hub:** Architettura server custom per ecosistemi IoT (Tapo), focalizzata sulla sicurezza delle comunicazioni in rete WAN e il controllo accessi remoto.
 
 ## 🌍 Milestone
-The American Turning Point* — L'anno della svolta internazionale che ha consolidato il mio approccio strategico al software e al mercato globale.
+The American Turning Point* — svolta internazionale che ha consolidato il mio approccio strategico al software e al mercato globale.
 
 ---
 🔗 **[Esplora la Vetrina Live](https://aristide-dev-web.github.io/aristide-portfolio/)**
